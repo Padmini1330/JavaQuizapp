@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="572dp"
+        android:text="JAVA STUDY QUIZ:"
+        android:textColor="#FF5722"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="299dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="496dp"
+        android:text="PLAY AND LEARN"
+        android:textColor="#FF5722"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="294dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="248dp"
+        android:background="@drawable/button_rounded"
+        android:text="BEGINNER"
+        android:textColor="#ffffff"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="294dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="149dp"
+        android:background="@drawable/button_rounded"
+        android:text="INTERMEDIATE"
+        android:textColor="#ffffff"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="294dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/button_rounded"
+        android:text="DIFFICULT"
+        android:textColor="#ffffff"
+        android:textSize="36sp" />
+</RelativeLayout>
+
